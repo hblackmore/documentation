@@ -28,7 +28,7 @@ This results in a light blue bubble when the authenticated user sends a message,
 
 By default, Atlas displays the sender's initials next to the text bubbles. It's relatively easy to change this behavior so that the sender's name always appears in the text bubble itself. 
 
-This will require making changes to Atlas itself. First, you need to remove the existing avatar components, then add the text components to the message view in order to draw the sender's name, and then populate the the new component.
+This will require making changes to Atlas itself. First, you need to remove the existing avatar components, then add the text components to the message view in order to draw the sender's name, and then populate the new component.
 
 ###Step 1: Remove the default avatar view
 
