@@ -51,7 +51,7 @@ public void sendImage(Bitmap imageBitmap, Conversation conversation, LayerClient
 ### Transfer Status
 `MessagePart` provides a `TransferStatus` property which allows applications to inquire as to the status of content uploads when sending a message, or content download when downloading message content. This property will return one of the following enumerated values:
 
-* `AWAITING_UPLOAD` - Message content is enqueued locally and awaiting upload. 
+* `AWAITING_UPLOAD` - Message content is queued locally and awaiting upload. 
 * `UPLOADING` - Message content is in the process of uploading. 
 * `READY_FOR_DOWNLOAD` - Message content is ready for download but not yet downloaded to the device. 
 * `DOWNLOADING` - Message content is in the process of downloading. 
