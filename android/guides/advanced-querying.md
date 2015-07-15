@@ -94,7 +94,7 @@ List<Message> results = layerClient.executeQuery(query, Query.ResultType.OBJECTS
 ```
 
 ##Compound Predicates
-For more sophisticated queries, applications can utilize the CompoundQuery object to specify multiple constraints for a single query. Compound predicates consist of an array of Predicate objects which represent individual constraints, in addition to a conjunction operator represented by an CompoundPredicate.Type.
+For more sophisticated queries, applications can utilize the CompoundQuery object to specify multiple constraints for a single query. Compound predicates consist of an array of Predicate objects which represent individual constraints, in addition to a conjunction operator represented by a CompoundPredicate.Type.
 
 The following demonstrates a compound predicate which will constrain the result set to Message objects that conform to the following criteria:
 
